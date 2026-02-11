@@ -2,46 +2,52 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background: #0f172a;
-  color: white;
-}
-
-header {
-  background: #1e293b;
-  padding: 40px 20px;
+  color: #fff;
   text-align: center;
 }
 
-h1 {
-  margin: 0;
+.hero {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+}
+
+.hero h1 {
   font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  opacity: 0.9;
+}
+
+.btn-whatsapp {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 15px 25px;
+  background: #22c55e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
 }
 
 section {
   padding: 40px 20px;
-  max-width: 900px;
-  margin: auto;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-input, textarea, button {
-  padding: 12px;
-  border: none;
-  border-radius: 6px;
-  font-size: 16px;
+li {
+  margin: 10px 0;
+  font-size: 18px;
 }
 
-button {
-  background: #22c55e;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-button:hover {
-  background: #16a34a;
+footer {
+  padding: 20px;
+  background: #020617;
+  font-size: 14px;
 }
